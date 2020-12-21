@@ -28,6 +28,9 @@ func needsExclusion(path string, exclude []string) bool {
 		if strings.HasPrefix(path, excluded) {
 			return true
 		}
+		if path == excluded {
+			return true
+		}
 	}
 
 	return false
