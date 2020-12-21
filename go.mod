@@ -1,4 +1,4 @@
-module github.com/elastic/go-licenser
+module github.com/evanljp/go-licenser
 
 go 1.13
 
